@@ -1,6 +1,6 @@
 //
 //  DesignableView.swift
-//  Lifesum Challenge
+//  RandomizedFoodInfo
 //
 //  Created by Marco Giustozzi on 2019-07-13.
 //  Copyright © 2019 marcog. All rights reserved.
