@@ -12,6 +12,21 @@
 		A5E961BF22E22077003CACEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E961BD22E22077003CACEE /* Main.storyboard */; };
 		A5E961C122E2207A003CACEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E961C022E2207A003CACEE /* Assets.xcassets */; };
 		A5E961C422E2207A003CACEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E961C222E2207A003CACEE /* LaunchScreen.storyboard */; };
+		A5E961DD22E22237003CACEE /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E961CB22E22237003CACEE /* DesignableView.swift */; };
+		A5E961DE22E22237003CACEE /* ProductPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E961CD22E22237003CACEE /* ProductPresenter.swift */; };
+		A5E961DF22E22237003CACEE /* ProductVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E961CE22E22237003CACEE /* ProductVCPresenter.swift */; };
+		A5E961E022E22237003CACEE /* MoreInfoVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E961CF22E22237003CACEE /* MoreInfoVCPresenter.swift */; };
+		A5E961E122E22237003CACEE /* MoreInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E961D022E22237003CACEE /* MoreInfoPresenter.swift */; };
+		A5E961E222E22237003CACEE /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E961D122E22237003CACEE /* HomePresenter.swift */; };
+		A5E961E322E22237003CACEE /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E961D222E22237003CACEE /* APIManager.swift */; };
+		A5E961E422E22237003CACEE /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E961D422E22237003CACEE /* Meta.swift */; };
+		A5E961E522E22237003CACEE /* CurrentFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E961D522E22237003CACEE /* CurrentFood.swift */; };
+		A5E961E622E22237003CACEE /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E961D622E22237003CACEE /* Response.swift */; };
+		A5E961E722E22237003CACEE /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E961D722E22237003CACEE /* UIView+Extensions.swift */; };
+		A5E961E822E22237003CACEE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E961D822E22237003CACEE /* Router.swift */; };
+		A5E961E922E22237003CACEE /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E961DA22E22237003CACEE /* ProductViewController.swift */; };
+		A5E961EA22E22237003CACEE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E961DB22E22237003CACEE /* HomeViewController.swift */; };
+		A5E961EB22E22237003CACEE /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E961DC22E22237003CACEE /* MoreInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +37,21 @@
 		A5E961C022E2207A003CACEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5E961C322E2207A003CACEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5E961C522E2207A003CACEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E961CB22E22237003CACEE /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = RandomizedFoodInfo/DesignableView.swift; sourceTree = "<group>"; };
+		A5E961CD22E22237003CACEE /* ProductPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductPresenter.swift; sourceTree = "<group>"; };
+		A5E961CE22E22237003CACEE /* ProductVCPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductVCPresenter.swift; sourceTree = "<group>"; };
+		A5E961CF22E22237003CACEE /* MoreInfoVCPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfoVCPresenter.swift; sourceTree = "<group>"; };
+		A5E961D022E22237003CACEE /* MoreInfoPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfoPresenter.swift; sourceTree = "<group>"; };
+		A5E961D122E22237003CACEE /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		A5E961D222E22237003CACEE /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = RandomizedFoodInfo/APIManager.swift; sourceTree = "<group>"; };
+		A5E961D422E22237003CACEE /* Meta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		A5E961D522E22237003CACEE /* CurrentFood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentFood.swift; sourceTree = "<group>"; };
+		A5E961D622E22237003CACEE /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		A5E961D722E22237003CACEE /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "RandomizedFoodInfo/UIView+Extensions.swift"; sourceTree = "<group>"; };
+		A5E961D822E22237003CACEE /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Router.swift; path = RandomizedFoodInfo/Router.swift; sourceTree = "<group>"; };
+		A5E961DA22E22237003CACEE /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		A5E961DB22E22237003CACEE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A5E961DC22E22237003CACEE /* MoreInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +68,13 @@
 		A5E961AD22E22077003CACEE = {
 			isa = PBXGroup;
 			children = (
+				A5E961D222E22237003CACEE /* APIManager.swift */,
+				A5E961CB22E22237003CACEE /* DesignableView.swift */,
+				A5E961D322E22237003CACEE /* Model */,
+				A5E961CC22E22237003CACEE /* Presenters */,
+				A5E961D822E22237003CACEE /* Router.swift */,
+				A5E961D722E22237003CACEE /* UIView+Extensions.swift */,
+				A5E961D922E22237003CACEE /* ViewControllers */,
 				A5E961B822E22077003CACEE /* RandomizedFoodInfo */,
 				A5E961B722E22077003CACEE /* Products */,
 			);
@@ -62,6 +99,41 @@
 				A5E961C522E2207A003CACEE /* Info.plist */,
 			);
 			path = RandomizedFoodInfo;
+			sourceTree = "<group>";
+		};
+		A5E961CC22E22237003CACEE /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				A5E961CD22E22237003CACEE /* ProductPresenter.swift */,
+				A5E961CE22E22237003CACEE /* ProductVCPresenter.swift */,
+				A5E961CF22E22237003CACEE /* MoreInfoVCPresenter.swift */,
+				A5E961D022E22237003CACEE /* MoreInfoPresenter.swift */,
+				A5E961D122E22237003CACEE /* HomePresenter.swift */,
+			);
+			name = Presenters;
+			path = RandomizedFoodInfo/Presenters;
+			sourceTree = "<group>";
+		};
+		A5E961D322E22237003CACEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5E961D422E22237003CACEE /* Meta.swift */,
+				A5E961D522E22237003CACEE /* CurrentFood.swift */,
+				A5E961D622E22237003CACEE /* Response.swift */,
+			);
+			name = Model;
+			path = RandomizedFoodInfo/Model;
+			sourceTree = "<group>";
+		};
+		A5E961D922E22237003CACEE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5E961DA22E22237003CACEE /* ProductViewController.swift */,
+				A5E961DB22E22237003CACEE /* HomeViewController.swift */,
+				A5E961DC22E22237003CACEE /* MoreInfoViewController.swift */,
+			);
+			name = ViewControllers;
+			path = RandomizedFoodInfo/ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +208,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5E961BC22E22077003CACEE /* ViewController.swift in Sources */,
+				A5E961E522E22237003CACEE /* CurrentFood.swift in Sources */,
+				A5E961EB22E22237003CACEE /* MoreInfoViewController.swift in Sources */,
+				A5E961DF22E22237003CACEE /* ProductVCPresenter.swift in Sources */,
+				A5E961E922E22237003CACEE /* ProductViewController.swift in Sources */,
 				A5E961BA22E22077003CACEE /* AppDelegate.swift in Sources */,
+				A5E961E622E22237003CACEE /* Response.swift in Sources */,
+				A5E961E722E22237003CACEE /* UIView+Extensions.swift in Sources */,
+				A5E961E322E22237003CACEE /* APIManager.swift in Sources */,
+				A5E961DE22E22237003CACEE /* ProductPresenter.swift in Sources */,
+				A5E961E122E22237003CACEE /* MoreInfoPresenter.swift in Sources */,
+				A5E961E022E22237003CACEE /* MoreInfoVCPresenter.swift in Sources */,
+				A5E961EA22E22237003CACEE /* HomeViewController.swift in Sources */,
+				A5E961E822E22237003CACEE /* Router.swift in Sources */,
+				A5E961DD22E22237003CACEE /* DesignableView.swift in Sources */,
+				A5E961E422E22237003CACEE /* Meta.swift in Sources */,
+				A5E961E222E22237003CACEE /* HomePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
